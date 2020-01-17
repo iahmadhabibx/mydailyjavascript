@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ahmad's Quiz</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<h4>The IQ Quiz</h4>
+	<form id="quiz" name="quiz">
+		<p>What is the capital of Colombia?</p>
+		<input type="text" name="question1" id="textbox">
+
+		<p>What is the capital of Connecticut?</p>
+		<input type="radio" name="question2" id="mc" value="Heartford"> Heartford <br>
+		<input type="radio" name="question2" id="mc" value="Hartford"> Hartford <br>
+		<input type="radio" name="question2" id="mc" value="Hetherford"> Hetherford <br>
+
+		<p>What is the capital of Shangrila?</p>
+		<input type="radio" name="question3" id="mc" value="Aligarh"> Aligarh <br>
+		<input type="radio" name="question3" id="mc" value="Chekmink"> Chekmink <br>
+		<input type="radio" name="question3" id="mc" value="notaquestion"> Dofas, this ain't a country <br>
+
+
+		<input type="button" id="button" type="button" value="I'm done with the world" onclick="checkQuiz();">
+	</form>
+
+	<div id="after_submit">
+		<p id="message"></p>
+		<p id="number_correct"></p>
+		<img id="gifs">
+	</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
