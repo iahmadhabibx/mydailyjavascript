@@ -14,3 +14,6 @@ Meditation app using es6
 
 # Day5:
 Virtual keyboard, with every button added through pure javascript
+
+# Day6:
+Snake game in pure javascript with score update
