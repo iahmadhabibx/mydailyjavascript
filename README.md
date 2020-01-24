@@ -20,3 +20,6 @@ Snake game in pure javascript with score update
 
 # Day7:
 Image slider with hover, javascript
+
+# Day8:
+Speed type application, Initial phase
