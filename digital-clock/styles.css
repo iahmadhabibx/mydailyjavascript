@@ -1,0 +1,26 @@
+body {
+	background: #000;
+}
+
+.clock {
+	font-family: 'Space Mono', monospace;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 51px;
+    border: 6px solid #fff;
+    padding: 19px;
+    border-radius: 4px;
+    box-shadow: -1px 3px 9px 4px blue;
+    transition: 0.5s ease;
+}
+
+.clock:hover {
+	cursor: pointer;
+	background: blue;
+	color: #000;
+	border: 6px solid #000;
+	box-shadow: -1px 3px 9px 4px #fff;
+}
