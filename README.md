@@ -32,3 +32,6 @@ JavaScrip async await Digital Clock
 
 # Day11:
 Code editor for web, using ACE API
+
+# Day12:
+Buget making app (1/2)
