@@ -1,4 +1,4 @@
-# mydailyjavascript
+# #mydailyjavascript
 
 # Day1:
 Sample Quiz app using vanilla javascript, es6 functions and CSS.
@@ -38,3 +38,6 @@ Buget making app (1/2)
 
 # Day13:
 Buget making app (2/2)
+
+# Day14:
+AI chess game
