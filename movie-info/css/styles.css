@@ -1,0 +1,20 @@
+#movies img, #movie img {
+	width: 100%;
+}
+.h3search {
+	margin-top: 20%;
+	font-size: 350%;
+	font-weight: bold;
+}
+.h3search:hover {
+	color: yellow;
+}
+@media(min-width: 960px) {
+	#movies .col-md-3 .well {
+		height: 390px;
+	}
+
+	#movies .col-md-3 img {
+		height: 240px;
+	}	
+}
