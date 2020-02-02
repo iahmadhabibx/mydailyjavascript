@@ -47,3 +47,6 @@ Random number API
 
 # Day16:
 Movie search and information using API
+
+# Day17:
+Full page image slider. Images from pexels.com
