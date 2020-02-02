@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <img src="./images/image1.jpg" id="img1" class="image-slider">
+        <!-- <img src="./images/image2.jpg" id="img2" class="image-slider">
+        <img src="./images/image3.jpg" id="img3" class="image-slider">
+        <img src="./images/image4.jpg" id="img4" class="image-slider">
+        <img src="./images/image5.jpg" id="img5" class="image-slider">
+        <img src="./images/image6.jpg" id="img6" class="image-slider"> -->
+        <div class="icons-container">
+            <div class="icon-left">
+                <img src="./icons/left.png" alt="Previous" onclick="slideImage('left')">
+            </div>
+            <div class="icon-right">
+                <img src="./icons/right.png" alt="Next" onclick="slideImage('right')">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

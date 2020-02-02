@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-container {
+    position: relative;
+}
+
+.slider-container .image-slider {
+    width: 100vw;
+    height: 100vh;
+}
+
+.icons-container .icon-left,
+.icons-container .icon-right {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.icons-container .icon-left {
+    left: 0;
+}
+
+.icons-container .icon-right {
+    right: 0;
+}
