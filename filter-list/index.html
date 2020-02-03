@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css">
+  <title>Contacts</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="center-align">
+      My Contacts
+    </h1>
+    <input type="text" id="filterInput" placeholder="Search names...">
+    <ul id="names" class="collection with-header">
+      <li class="collection-header">
+        <h5>A</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Ahmad</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Adam</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Akbar/a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Ali</a>
+      </li>
+	  <li class="collection-item">
+        <a href="#">Asad</a>
+      </li>
+	  <li class="collection-item">
+        <a href="#">Ahad</a>
+      </li>
+	  <li class="collection-item">
+        <a href="#">Anaya</a>
+      </li>
+	  <li class="collection-item">
+        <a href="#">Ahsan</a>
+      </li>
+      <li class="collection-header">
+        <h5>B</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Bilal</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Banno</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Bilawal</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Bakhtayar</a>
+      </li>
+	  <li class="collection-item">
+        <a href="#">Bakhtawar</a>
+      </li>
+      <li class="collection-header">
+        <h5>C</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">CM Bajwa</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">CM Raheel Sharif</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Cm Ashraf Kayyani</a>
+      </li>
+	  
+	  <li class="collection-header">
+        <h5>D</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Dilawar</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Dalla</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Dhinchak Pooja</a>
+      </li>
+	  
+	  <li class="collection-header">
+        <h5>E</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Ehsan</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Ehliya</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Ehd-e-Wafa</a>
+      </li>
+    </ul>
+  </div>
+
+  <script>
+    // Get input element
+    let filterInput = document.getElementById('filterInput');
+    // Add event listener
+    filterInput.addEventListener('keyup', filterNames);
+
+    function filterNames(){
+      // Get value of input
+      let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+      // Get names ul
+      let ul = document.getElementById('names');
+      // Get lis from ul
+      let li = ul.querySelectorAll('li.collection-item');
+
+      // Loop through collection-item lis
+      for(let i = 0;i < li.length;i++){
+        let a = li[i].getElementsByTagName('a')[0];
+        // If matched
+        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+          li[i].style.display = '';
+        } else {
+          li[i].style.display = 'none';
+        }
+      }
+
+    }
+  </script>
+</body>
+</html>
