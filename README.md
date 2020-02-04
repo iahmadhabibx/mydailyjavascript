@@ -50,3 +50,9 @@ Movie search and information using API
 
 # Day17:
 Full page image slider. Images from pexels.com
+
+# Day18:
+Contact List FIlter
+
+# Day19:
+Face Recognition App
