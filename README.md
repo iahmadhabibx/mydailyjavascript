@@ -59,3 +59,6 @@ Face Recognition App
 
 # Day20:
 Text to Speech, No API
+
+# Day21:
+Speech to Text, No API
