@@ -68,3 +68,6 @@ Weight converter
 
 # Day23:
 Ping Pong
+
+# Day24:
+To do maker
