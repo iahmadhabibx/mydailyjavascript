@@ -1,0 +1,194 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(0,0,253,.4);
+	background-position: center;
+}
+
+/*STYLING ROAD*/
+#container {
+	position: relative;
+	width: 25%;
+	height: 100vh;
+	left: 35%;
+	background: #333;
+	overflow: hidden;
+}
+
+.line {
+	position: absolute;
+	width: 4%;
+	height: 150px;
+	background: rgba(255, 255, 255, 0.8);
+	margin-left: 48%;
+}
+
+#line_1 {
+	top: -150px;
+}
+
+#line_2 {
+	top: 150px;
+}
+
+#line_3 {
+	top: 450px;
+}
+
+.car {
+	position: absolute;
+	width: 40px;
+	height: 60px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 8px 0px black;
+
+}
+
+#car {
+	bottom: 8%;
+	left: 60%;
+	background: red;
+}
+
+.f_glass {
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	margin-left: 20%;
+	top: 15%;
+	border-radius: 0px 0px 5px 5px;
+	background: #484848;
+}
+
+.b_glass {
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	margin-left: 20%;
+	bottom: 15%;
+	border-radius: 5px 5px 0px 0px;
+	background: #484848;
+}
+
+
+.f_light_l {
+	position: absolute;
+	height: 10%;
+	width: 20%;
+	background: #efefef;
+	top: -6%;
+	margin-left: 10%;
+	border-radius: 5px 5px 0 0 ;
+}
+
+.f_light_r {
+	position: absolute;
+	height: 10%;
+	width: 20%;
+	background: #efefef;
+	top: -6%;
+	margin-left: 70%;
+	border-radius: 5px 5px 0 0 ;
+}
+
+
+.f_tyre_l {
+	position: absolute;
+	height: 20%;
+	width: 10%;
+	background-color: grey;
+	top: 20%;
+	left: -10%;
+	border-radius: 5px 0 0 5px;
+}
+
+.f_tyre_r {
+	position: absolute;
+	height: 20%;
+	width: 10%;
+	background-color: grey;
+	top: 20%;
+	left: 100%;
+	border-radius: 0 5px 5px 0;
+}
+
+
+.b_tyre_l {
+	position: absolute;
+	height: 20%;
+	width: 10%;
+	background-color: grey;
+	top: 70%;
+	left: -10%;
+	border-radius: 5px 0 0 5px;	
+}
+
+.b_tyre_r {
+	position: absolute;
+	height: 20%;
+	width: 10%;
+	background-color: grey;
+	top: 70%;
+	left: 100%;
+	border-radius: 5px 0 0 5px;	
+}
+
+
+#car_1 {
+	top: -100%;
+	left: 60%;
+	background: green;
+}
+
+#car_2 {
+	top: -200%;
+	left: 40%;
+	background: blue;
+}
+
+#car_3 {
+	top: -350%;
+	left: 50%;
+	background: #26c5ff;
+}
+
+
+#restart_div {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #292929;
+	color: #fff;
+	line-height: 100vh;
+	display: none;
+}
+
+#restart {
+	border: none;
+	padding: 25px;
+	width: 50%;
+	height: 100px;
+	background: #8a64ff;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 50%;
+	margin-left: 25%;
+}
+
+.small_text {
+	font-size: 15px;
+}
+
+#score-div {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 10%;
+	font-size: 35px;
+	background-color: #4d4d4d;
+	color: #fff;
+	padding: 10px;
+	box-shadow: 4px 4px 4px 1px #808080;
+}
