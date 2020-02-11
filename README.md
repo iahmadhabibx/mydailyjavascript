@@ -74,3 +74,6 @@ To do maker
 
 # Day25:
 Car racing game
+
+# Day26:
+Four in a row
