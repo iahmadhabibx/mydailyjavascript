@@ -86,3 +86,6 @@ Message sending app simulator
 
 # Day29:
 Rock Paper Scissors
+
+# Day30:
+Day - Dark mode switch
