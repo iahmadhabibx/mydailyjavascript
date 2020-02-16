@@ -89,3 +89,6 @@ Rock Paper Scissors
 
 # Day30:
 Day - Dark mode switch
+
+# Day31:
+Color Picker
